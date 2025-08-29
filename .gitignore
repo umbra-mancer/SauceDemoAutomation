@@ -19,3 +19,7 @@ Thumbs.db
 
 # secrets
 src/test/resources/config.properties
+
+# Ignore dotenv files
+.env
+
