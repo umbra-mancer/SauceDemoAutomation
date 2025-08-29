@@ -1,0 +1,21 @@
+# Maven / build
+target/
+*.log
+
+# IntelliJ
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# user caches and local settings
+.vscode/
+.settings/
+
+# local driver cache (optional)
+.cache/
+
+# secrets
+src/test/resources/config.properties
