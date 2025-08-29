@@ -13,7 +13,7 @@ public class LoginTest {
 
     @BeforeMethod
     public void setup() {
-        driver= DriverFactory.initDriver();
+        driver= DriverFactory.getDriver();
         driver.get("https://www.saucedemo.com/");
     }
 
