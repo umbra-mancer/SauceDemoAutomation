@@ -19,7 +19,7 @@ public class LoginTest {
     @BeforeClass
     public void loadCredentials() {
         username = System.getenv("SAUCE_USERNAME");
-        password = System.getenv("sauce_password");
+        password = System.getenv("SAUCE_PASSWORD");
         if (username == null || password == null) {
             Dotenv dotenv = Dotenv.load();
             username = dotenv.get("SAUCE_USERNAME");
